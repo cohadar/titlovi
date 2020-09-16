@@ -13,6 +13,7 @@ def main():
         mapper[230] = 'ć'
         mapper[232] = 'č'
         mapper[240] = 'đ'
+        mapper[150] = '*'
         out = ""
         for c in data:
             if c < 128:
